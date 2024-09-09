@@ -1,4 +1,12 @@
-# XCountriesSearch
+# XCountries
+
+Please view live application at [XCountriesSearch](https://x-countries-search-wine.vercel.app/).
+
+## Demo 
+
+Fork and run this application using below command: 
+
+```npm run dev```
 
 ## Overview
  
