@@ -11,7 +11,7 @@ function Home() {
     const fetchCountries = async () => {
         try {
             const res = await fetch(API_ENDPOINT);
-            const data = res.json();
+            const data = await res.json();
 
             return data;
         } catch (e) {
