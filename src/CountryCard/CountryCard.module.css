@@ -1,0 +1,20 @@
+.countryCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.CountryFlag {
+    width: 8rem;
+    height: 5rem;
+}
+
+.CountryName {
+    width: 8rem;
+}
