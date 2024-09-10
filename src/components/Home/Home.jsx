@@ -22,7 +22,6 @@ function Home() {
     useEffect(() => {
         (async () => {
             const data = await fetchCountries();
-            console.log(data)
             setCountries(data);
             setFilteredCountries(data);
         })();

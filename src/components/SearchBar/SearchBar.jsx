@@ -5,10 +5,8 @@ function SearchBar({ countries, setFilteredCountries }) {
     const [searchText, setSearchText] = useState('');
 
     const searchCountries = () => {
-        console.log(`searchText: ${searchText}`)
         const filteredCountries = countries.filter((country) => country.name.common.toLowerCase().includes(searchText.toLowerCase()));
 
-        console.log('filteredCountries', filteredCountries)
         return filteredCountries;
     }
 
